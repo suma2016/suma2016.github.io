@@ -2,60 +2,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Suma Srivalli | Python Developer</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suma Srivalli - Portfolio</title>
+  <!-- Professional Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      font-weight: 700;
+      color: #343a40;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.2rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 0.3rem;
+    }
+
+    .subheading {
+      color: #6c757d;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 0.8rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #0d6efd;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0b5ed7;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #dee2e6;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+  </style>
 </head>
 <body>
-
-  <header>
+  <div class="container">
     <h1>Suma Srivalli</h1>
-    <p class="tagline">Python Developer | GenAI Enthusiast | AWS Learner</p>
-  </header>
+    <div class="subheading">Python Developer | GenAI Enthusiast | AWS Learner</div>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section id="about">
     <h2>About Me</h2>
-    <p>I'm Suma, a passionate Python developer with 9 years of experience in IT. I enjoy building scalable systems and exploring GenAI advancements.</p>
-  </section>
+    <p>I’m Suma, a passionate Python developer with 9 years of experience in IT, currently focused on mastering full-stack development and generative AI.</p>
 
-  <section id="skills">
     <h2>Skills</h2>
-    <ul class="skills-list">
+    <ul>
       <li>Python</li>
       <li>Shell Scripting</li>
-      <li>AWS</li>
+      <li>AWS (Console)</li>
       <li>GenAI</li>
       <li>HTML & CSS</li>
     </ul>
-  </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul class="project-list">
-      <li><strong>Personal Portfolio</strong> – A responsive personal website built with HTML, CSS, and GitHub Pages</li>
-      <li><strong>GenAI ChatBot</strong> – Created an intelligent assistant using OpenAI API and Flask</li>
-      <li><strong>AWS Automation</strong> – Automated EC2 and S3 workflows using Python and Boto3</li>
-    </ul>
-  </section>
+    <h2>Resume</h2>
+    <p>You can download my resume here:</p>
+    <a class="button" href="resume.pdf" download>📄 Download Resume (PDF)</a>
 
-  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: yourname@example.com</p>
+    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
     <p>GitHub: <a href="https://github.com/suma2016" target="_blank">suma2016</a></p>
-  </section>
 
-  <footer>
-    <p>&copy; 2025 Suma Srivalli</p>
-  </footer>
-
+    <footer>
+      © 2025 Suma Srivalli
+    </footer>
+  </div>
 </body>
 </html>
